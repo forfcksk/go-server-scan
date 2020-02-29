@@ -22,7 +22,7 @@ var db *sql.DB
 var err error
 
 func main() {
-	db, err = sql.Open("mysql", "root:mysrdbz2KW@tcp(192.168.56.1:3306)/socks")
+	db, err = sql.Open("mysql", "root:pass@tcp(192.168.56.1:3306)/socks")
 	if err != nil {
 		panic(err.Error())
 	}
